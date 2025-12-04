@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-content">
+            <div>
+                <h1>DevOps</h1>
+                <p class="header-subtitle">Desarrollo y Operaciones</p>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+                <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+                    <span>🌙</span> <span>Oscuro</span>
+                </button>
+                <button class="menu-toggle" onclick="toggleMenu()">≡</button>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="agil.html">Ágil</a></li>
+                <li><a href="DevOps.html">DevOps</a></li>
+                <li><a href="Kanban.html">Kanban</a></li>
+                <li><a href="Lean.html">Lean</a></li>
+                <li><a href="Waterfall.html">Waterfall</a></li>
+                <li><a href="scrum.html">Scrum</a></li>
+                <li><a href="Formulario.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <a href="../index.html" class="back-button">
+                <span class="back-button-icon">←</span>
+                <span>Volver al inicio</span>
+            </a>
+        </section>
+
+        <section>
+            <div class="card">
+                <p class="text-center">DevOps es una forma de trabajo que une el desarrollo de software (Dev) con las operaciones de tecnología (Ops). Su objetivo es mejorar la comunicación, la colaboración y la automatización entre ambos equipos para entregar software más rápido, con menos errores y de mejor calidad. A través de esta integración, se eliminan los silos tradicionales entre departamentos, fomentando una cultura organizacional basada en la transparencia y la responsabilidad compartida.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <p class="text-justify">DevOps no solo es un conjunto de herramientas, sino también una <strong>filosofía cultural</strong> que busca romper las barreras entre los equipos de desarrollo y operaciones. Antes, los desarrolladores se enfocaban en crear nuevas funciones y los operadores en mantener la estabilidad, lo que generaba conflictos y retrasos. Con DevOps, ambos trabajan de forma conjunta bajo el principio de <em>"tú lo construyes, tú lo operas"</em>, lo que promueve la responsabilidad compartida durante todo el ciclo de vida del software. El resultado es una entrega más continua, ágil y confiable.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Características principales de DevOps</h2>
+                <ul>
+                    <li><strong>Automatización:</strong> se automatizan tareas como pruebas, integraciones y despliegues, lo que ahorra tiempo y reduce errores humanos. También se utilizan herramientas como Jenkins, Ansible o Docker para asegurar que los procesos se ejecuten de manera uniforme en todos los entornos.</li>
+                    <li><strong>Integración continua (CI) y entrega continua (CD):</strong> permiten que el código se pruebe y se implemente rápidamente cada vez que se actualiza, garantizando que los cambios sean seguros y estables. Esto mejora la calidad del producto y la confianza en los lanzamientos.</li>
+                    <li><strong>Colaboración y comunicación constante:</strong> fomenta la cooperación entre los equipos para resolver problemas y mejorar procesos. Gracias a herramientas de comunicación como Slack, Jira o Trello, se logra una mejor coordinación entre desarrolladores, testers y administradores de sistemas.</li>
+                    <li><strong>Monitoreo y retroalimentación continua:</strong> se revisa el desempeño del software en tiempo real para aplicar mejoras inmediatas. Las métricas de rendimiento, seguridad y uso del sistema ayudan a detectar errores antes de que afecten al usuario final.</li>
+                    <li><strong>Cultura de mejora continua:</strong> DevOps promueve la idea de aprender constantemente de los errores y éxitos, analizando cada fase del ciclo de desarrollo para hacer los procesos más eficientes con el tiempo.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Los pilares de DevOps (CAMS)</h2>
+                <p class="text-justify">El modelo CAMS resume los valores fundamentales de DevOps: <strong>Cultura, Automatización, Medición y Compartir</strong>.</p>
+                <ul>
+                    <li><strong>Cultura:</strong> fomenta la colaboración, la confianza y la transparencia entre equipos. Los errores se ven como oportunidades para aprender, no como motivos de culpa. Sin una cultura de confianza, ninguna herramienta puede funcionar correctamente.</li>
+                    <li><strong>Automatización:</strong> elimina tareas repetitivas como pruebas, despliegues o configuración de servidores, reduciendo errores y acelerando el desarrollo.</li>
+                    <li><strong>Medición:</strong> todo se debe medir: rendimiento, tiempos de despliegue, errores, y satisfacción del usuario. Como dice el principio Lean: <em>"no puedes mejorar lo que no puedes medir".</em></li>
+                    <li><strong>Compartir:</strong> implica intercambiar conocimientos, herramientas y aprendizajes entre los equipos para fortalecer la colaboración y la comprensión mutua.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Ventajas de aplicar DevOps</h2>
+                <p class="text-justify">
+                    Implementar DevOps permite a las empresas ser más ágiles y adaptarse rápidamente a los cambios del mercado. Se reducen los fallos en los lanzamientos, se mejora la calidad del software y se logra una entrega más rápida de nuevas versiones o actualizaciones. Además, mejora la comunicación entre los equipos y crea una cultura de responsabilidad compartida. Las organizaciones que adoptan DevOps experimentan una mayor satisfacción del cliente, ya que los productos se mantienen actualizados y con menos interrupciones. También se optimizan los recursos de infraestructura, disminuyendo los costos operativos y aumentando la eficiencia general.
+                </p>
+                <p class="text-justify">
+                    Otro beneficio importante es la reducción de tiempos de recuperación en caso de fallas. Al tener monitoreo constante y despliegues automatizados, los errores pueden corregirse casi de inmediato. Asimismo, la integración de prácticas de seguridad dentro del proceso, conocida como <strong>DevSecOps</strong>, asegura que los sistemas sean protegidos desde el inicio del desarrollo y no solo al final del proyecto.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Prácticas clave: Integración y Entrega Continua (CI/CD)</h2>
+                <p class="text-justify">El ciclo CI/CD es la aplicación técnica más importante dentro de DevOps. Consiste en automatizar los pasos que van desde el desarrollo hasta la entrega final del software. La <strong>Integración Continua (CI)</strong> implica que los desarrolladores suben su código varias veces al día a un repositorio común, donde se ejecutan pruebas automáticas para detectar errores. La <strong>Entrega Continua (CD)</strong> garantiza que ese código esté siempre listo para desplegarse, de forma segura y rápida, incluso sin intervención humana (Despliegue Continuo).</p>
+                <p class="text-justify">Estas prácticas reducen el riesgo, aumentan la calidad y permiten ofrecer actualizaciones frecuentes al cliente.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="image-hero">
+                    <img src="../img/imagendev.png" alt="Esquema DevOps">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Herramientas fundamentales del ecosistema DevOps</h2>
+                <ul>
+                    <li><strong>Control de versiones:</strong> Git, GitHub, GitLab o Bitbucket permiten la colaboración y el control del código fuente.</li>
+                    <li><strong>Contenerización:</strong> Docker empaqueta aplicaciones con sus dependencias para que funcionen igual en cualquier entorno.</li>
+                    <li><strong>Orquestación:</strong> Kubernetes automatiza el despliegue, escalado y administración de contenedores en producción.</li>
+                    <li><strong>CI/CD Pipeline:</strong> Jenkins, GitHub Actions o Azure DevOps ejecutan los pasos automatizados del ciclo (compilar, probar y desplegar).</li>
+                    <li><strong>Infraestructura como Código (IaC):</strong> herramientas como Terraform o Ansible permiten gestionar servidores mediante archivos de configuración en lugar de clics manuales.</li>
+                    <li><strong>Monitoreo y Logging:</strong> Prometheus, Grafana y ELK Stack permiten analizar métricas y registros en tiempo real para detectar errores o cuellos de botella.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Metodologías relacionadas con DevOps</h2>
+                <p class="text-center">DevOps se complementa con varias metodologías que comparten sus principios de mejora continua, colaboración y eficiencia. Estas metodologías aportan diferentes enfoques y herramientas que ayudan a optimizar los procesos dentro del ciclo de vida del software. Al combinarse, crean entornos más adaptables y con mejor comunicación entre las distintas áreas de una organización.</p>
+
+                <h3>Lean</h3>
+                <p class="text-justify">Metodología que se enfoca en eliminar desperdicios y maximizar el valor entregado al cliente. Lean busca que cada acción dentro del proceso aporte un beneficio real, evitando tareas innecesarias o ineficientes. Su aplicación en DevOps permite optimizar recursos, reducir tiempos y mejorar la satisfacción del usuario final.</p>
+                <ul>
+                    <li>Eliminar todo lo que no aporte valor.</li>
+                    <li>Aprender y mejorar de manera constante.</li>
+                    <li>Tomar decisiones en el momento adecuado.</li>
+                    <li>Entregar resultados lo más pronto posible.</li>
+                    <li>Fomentar la participación activa de todo el equipo para mejorar continuamente los procesos.</li>
+                </ul>
+
+                <h3>Agile</h3>
+                <p class="text-justify">Metodología que busca flexibilidad en el desarrollo de software, dividiendo los proyectos en partes más pequeñas llamadas "sprints". Permite adaptarse a los cambios y mejorar según la retroalimentación constante. Agile y DevOps comparten el enfoque en la entrega continua y la colaboración entre equipos multidisciplinarios. En conjunto, permiten una respuesta rápida ante imprevistos y un mejor aprovechamiento del tiempo de desarrollo.</p>
+                <p class="text-justify">Gracias a Agile, los equipos pueden entregar valor de forma incremental, validando ideas y corrigiendo errores con rapidez. DevOps lleva esta filosofía más allá del desarrollo, extendiéndola también al área de operaciones para lograr una entrega continua de valor al cliente.</p>
+
+                <h3>Scrum</h3>
+                <p class="text-justify">Es un marco de trabajo dentro de Agile que organiza al equipo en roles y reuniones periódicas para planificar, revisar y mejorar el trabajo. Su objetivo es entregar resultados funcionales en cada sprint. Scrum asigna roles como el Product Owner, Scrum Master y el equipo de desarrollo, quienes trabajan de forma conjunta para lograr metas específicas en plazos cortos.</p>
+                <p class="text-justify">Integrar Scrum con DevOps refuerza la entrega continua, ya que los sprints permiten planificar y ejecutar tareas más pequeñas mientras que las herramientas de DevOps automatizan la integración y el despliegue. De esta forma, se logra un flujo constante de mejora, innovación y calidad en cada etapa del proyecto.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados a MGAA</p>
+    </footer>
+
+    <script src="../java/theme.js"></script>
+</body>
+</html>

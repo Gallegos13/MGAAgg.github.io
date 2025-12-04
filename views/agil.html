@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología Ágil</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-content">
+            <div>
+                <h1>Metodología Ágil</h1>
+                <p class="header-subtitle">Desarrollo ágil de software</p>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+                <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+                    <span>🌙</span> <span>Oscuro</span>
+                </button>
+                <button class="menu-toggle" onclick="toggleMenu()">≡</button>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="agil.html">Ágil</a></li>
+                <li><a href="DevOps.html">DevOps</a></li>
+                <li><a href="Kanban.html">Kanban</a></li>
+                <li><a href="Lean.html">Lean</a></li>
+                <li><a href="Waterfall.html">Waterfall</a></li>
+                <li><a href="scrum.html">Scrum</a></li>
+                <li><a href="Formulario.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <a href="../index.html" class="back-button">
+                <span class="back-button-icon">←</span>
+                <span>Volver al inicio</span>
+            </a>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h2>Desarrollo Iterativo e Incremental</h2>
+                        <p>El proyecto se divide en ciclos de trabajo cortos y de duración fija, llamados iteraciones o sprints (normalmente de 2 a 4 semanas).</p>
+                        <p>Al final de cada ciclo, el equipo debe entregar una parte funcional y probada del producto, lo que se conoce como un incremento.</p>
+                        <p><strong>Beneficio:</strong> Permite que los clientes vean progreso rápido y que el equipo obtenga feedback (retroalimentación) continuo.</p>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../img/agil.svg" alt="Ciclos iterativos en metodología ágil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h3>Adaptación al Cambio</h3>
+                <p>A diferencia de los enfoques tradicionales, donde cambiar un requisito a mitad del proyecto es muy costoso y difícil, la metodología ágil acepta y promueve el cambio.</p>
+                <p>Si las prioridades del cliente o del mercado cambian, el equipo puede ajustar el plan en el siguiente sprint.</p>
+                <p><strong>Beneficio:</strong> El producto final será más relevante y se ajustará mejor a las necesidades actuales del cliente.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h3>Colaboración y Personas</h3>
+                <p>La comunicación directa, la interacción y la colaboración (tanto dentro del equipo como con el cliente) se valoran más que los procesos rígidos y la documentación exhaustiva.</p>
+                <p>El Manifiesto Ágil (el documento fundacional de este enfoque) establece que se valora más a "los individuos y las interacciones" que a "los procesos y las herramientas".</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h3>Enfoque en el Valor</h3>
+                <p>El objetivo principal es entregar valor al cliente de forma temprana y continua. Esto se logra priorizando el trabajo que tiene mayor impacto o beneficio.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados a MGAA</p>
+    </footer>
+
+    <script src="../java/theme.js"></script>
+</body>
+</html>

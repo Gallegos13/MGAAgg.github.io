@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología Waterfall</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-content">
+            <div>
+                <h1>Metodología Waterfall</h1>
+                <p class="header-subtitle">Un enfoque secuencial en el desarrollo de software</p>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+                <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+                    <span>🌙</span> <span>Oscuro</span>
+                </button>
+                <button class="menu-toggle" onclick="toggleMenu()">≡</button>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="agil.html">Ágil</a></li>
+                <li><a href="DevOps.html">DevOps</a></li>
+                <li><a href="Kanban.html">Kanban</a></li>
+                <li><a href="Lean.html">Lean</a></li>
+                <li><a href="Waterfall.html">Waterfall</a></li>
+                <li><a href="scrum.html">Scrum</a></li>
+                <li><a href="Formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <a href="../index.html" class="back-button">
+                <span class="back-button-icon">←</span>
+                <span>Volver al inicio</span>
+            </a>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h2>Introducción</h2>
+                        <p class="text-justify">
+                            La <strong>Metodología Waterfall</strong> (o modelo en cascada) es un enfoque clásico y secuencial para la gestión de proyectos de desarrollo de software. Propuesto por Winston W. Royce en 1970, este modelo se caracteriza por dividir el ciclo de vida del proyecto en fases consecutivas, donde cada etapa debe completarse antes de iniciar la siguiente. Su estructura lineal y rígida lo convierte en una opción adecuada para proyectos con requisitos bien definidos y estables desde el inicio.
+                        </p>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../img/waterfall.svg" alt="Diagrama de Metodología Waterfall - Modelo en Cascada">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Fases de la Metodología Waterfall</h2>
+                <p class="text-justify">El modelo se compone de las siguientes fases secuenciales:</p>
+
+                <div class="fase">
+                    <h3>1. Requisitos</h3>
+                    <p>Se recopilan y documentan todos los requisitos funcionales y no funcionales del sistema. Este documento sirve como contrato entre el cliente y el equipo de desarrollo.</p>
+                </div>
+
+                <div class="fase">
+                    <h3>2. Diseño</h3>
+                    <p>Se elabora la arquitectura del sistema y el diseño detallado de componentes, bases de datos, interfaces y algoritmos. Se generan diagramas UML, modelos ER y especificaciones técnicas.</p>
+                </div>
+
+                <div class="fase">
+                    <h3>3. Implementación</h3>
+                    <p>Los desarrolladores escriben el código fuente siguiendo el diseño establecido. Se utilizan lenguajes de programación, frameworks y herramientas previamente definidas.</p>
+                </div>
+
+                <div class="fase">
+                    <h3>4. Verificación (Pruebas)</h3>
+                    <p>Se realizan pruebas unitarias, de integración, de sistema y de aceptación para validar que el software cumple con los requisitos. Se corrigen defectos detectados.</p>
+                </div>
+
+                <div class="fase">
+                    <h3>5. Despliegue y Mantenimiento</h3>
+                    <p>El sistema se instala en el entorno de producción. Posteriormente, se realiza mantenimiento correctivo, adaptativo y perfectivo durante su ciclo de vida.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Ventajas</h2>
+                <ul>
+                    <li><strong>Estructura clara y predecible:</strong> Facilita la planificación y el control del proyecto.</li>
+                    <li><strong>Documentación completa:</strong> Cada fase genera artefactos formales y trazables.</li>
+                    <li><strong>Fácil gestión de recursos:</strong> Las tareas están bien delimitadas por fase.</li>
+                    <li><strong>Ideal para proyectos regulados:</strong> Cumple con estándares de calidad (ISO, CMMI).</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Desventajas</h2>
+                <ul>
+                    <li><strong>Rigidez ante cambios:</strong> Modificar requisitos en fases avanzadas es costoso.</li>
+                    <li><strong>Entrega tardía del producto:</strong> El cliente solo ve el sistema funcional al final.</li>
+                    <li><strong>Riesgo elevado:</strong> Errores de requisitos se detectan tarde.</li>
+                    <li><strong>No apto para proyectos evolutivos:</strong> Poco flexible ante incertidumbre.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Cuándo Usar Waterfall</h2>
+                <p class="text-justify">
+                    Este modelo es recomendable en proyectos con:
+                </p>
+                <ul>
+                    <li>Requisitos claros, completos y estables desde el inicio.</li>
+                    <li>Alcance bien definido y poco propenso a cambios.</li>
+                    <li>Equipos con experiencia en documentación formal.</li>
+                    <li>Entornos regulados (gubernamentales, médicos, aeroespaciales).</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Conclusión</h2>
+                <p class="text-justify">
+                    Aunque ha sido superada en popularidad por metodologías ágiles como Scrum o Kanban, la Metodología Waterfall sigue siendo una herramienta valiosa en contextos donde la predictibilidad, la documentación y el control formal son prioritarios. Su enfoque disciplinado y estructurado la convierte en un pilar fundamental en la enseñanza de la ingeniería de software y en proyectos de gran escala con requisitos fijos.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados a MGAA</p>
+    </footer>
+
+    <script src="../java/theme.js"></script>
+</body>
+</html>

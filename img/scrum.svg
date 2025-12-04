@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650">
+  <!-- Fondo -->
+  <rect width="900" height="650" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Metodología Scrum</text>
+  
+  <!-- Roles -->
+  <g id="roles">
+    <text x="450" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Roles del Equipo Scrum</text>
+    
+    <!-- Product Owner -->
+    <g id="product-owner">
+      <rect x="50" y="120" width="200" height="120" rx="10" fill="#3b82f6" opacity="0.8"/>
+      <text x="150" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Product Owner</text>
+      <text x="150" y="175" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Maximiza el valor</text>
+      <text x="150" y="195" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">del producto</text>
+      <text x="150" y="215" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Gestiona Backlog</text>
+    </g>
+    
+    <!-- Scrum Master -->
+    <g id="scrum-master">
+      <rect x="350" y="120" width="200" height="120" rx="10" fill="#60a5fa" opacity="0.8"/>
+      <text x="450" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Scrum Master</text>
+      <text x="450" y="175" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Líder de servicio</text>
+      <text x="450" y="195" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Elimina impedimentos</text>
+      <text x="450" y="215" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Facilita el proceso</text>
+    </g>
+    
+    <!-- Development Team -->
+    <g id="dev-team">
+      <rect x="650" y="120" width="200" height="120" rx="10" fill="#93c5fd" opacity="0.8"/>
+      <text x="750" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Development Team</text>
+      <text x="750" y="175" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Crea el producto</text>
+      <text x="750" y="195" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Responsable de</text>
+      <text x="750" y="215" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">calidad y entrega</text>
+    </g>
+  </g>
+  
+  <!-- Sprint Cycle -->
+  <g id="sprint-cycle">
+    <text x="450" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Ciclo de Sprint</text>
+    
+    <!-- Sprint Planning -->
+    <g id="planning">
+      <circle cx="150" cy="380" r="50" fill="#3b82f6" opacity="0.8"/>
+      <text x="150" y="375" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Sprint</text>
+      <text x="150" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Planning</text>
+    </g>
+    
+    <!-- Daily Scrum -->
+    <g id="daily">
+      <circle cx="350" cy="380" r="50" fill="#60a5fa" opacity="0.8"/>
+      <text x="350" y="375" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Daily</text>
+      <text x="350" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Scrum</text>
+    </g>
+    
+    <!-- Desarrollo -->
+    <g id="desarrollo">
+      <circle cx="550" cy="380" r="50" fill="#93c5fd" opacity="0.8"/>
+      <text x="550" y="375" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Desarrollo</text>
+      <text x="550" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">y Trabajo</text>
+    </g>
+    
+    <!-- Sprint Review -->
+    <g id="review">
+      <circle cx="750" cy="380" r="50" fill="#c7d2fe" opacity="0.8"/>
+      <text x="750" y="375" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Sprint</text>
+      <text x="750" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Review</text>
+    </g>
+    
+    <!-- Retrospectiva -->
+    <g id="retro">
+      <circle cx="450" cy="500" r="50" fill="#e0e7ff" opacity="0.8"/>
+      <text x="450" y="495" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Sprint</text>
+      <text x="450" y="510" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Retrospectiva</text>
+    </g>
+    
+    <!-- Flechas del ciclo -->
+    <path d="M 200 380 L 300 380" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 400 380 L 500 380" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 600 380 L 700 380" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 750 430 L 450 450" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 450 500 L 200 430 L 150 380" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Pilares -->
+  <g id="pilares">
+    <text x="450" y="580" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Tres Pilares: Transparencia | Inspección | Adaptación</text>
+    <text x="450" y="605" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#718096">Ciclo típico: 1-4 semanas | Incremento entregable al final de cada Sprint</text>
+  </g>
+  
+  <!-- Definición de flecha -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3b82f6"/>
+    </marker>
+  </defs>
+</svg>
+

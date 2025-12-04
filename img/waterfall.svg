@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="800" height="700">
+  <!-- Fondo -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Metodología Waterfall</text>
+  <text x="400" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#718096">Modelo en Cascada - Proceso Secuencial</text>
+  
+  <!-- Fases en cascada -->
+  <g id="fases">
+    <!-- Fase 1: Requisitos -->
+    <g id="fase1">
+      <rect x="100" y="120" width="600" height="80" rx="5" fill="#3b82f6" opacity="0.8"/>
+      <text x="400" y="155" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">1. Requisitos</text>
+      <text x="400" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Recopilación y documentación de requisitos funcionales y no funcionales</text>
+      <!-- Cascada -->
+      <path d="M 100 200 L 100 220 L 700 220 L 700 200 Z" fill="#3b82f6" opacity="0.6"/>
+    </g>
+    
+    <!-- Fase 2: Diseño -->
+    <g id="fase2">
+      <rect x="100" y="220" width="600" height="80" rx="5" fill="#60a5fa" opacity="0.8"/>
+      <text x="400" y="255" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">2. Diseño</text>
+      <text x="400" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Arquitectura del sistema, diseño de componentes, bases de datos e interfaces</text>
+      <!-- Cascada -->
+      <path d="M 100 300 L 100 320 L 700 320 L 700 300 Z" fill="#60a5fa" opacity="0.6"/>
+    </g>
+    
+    <!-- Fase 3: Implementación -->
+    <g id="fase3">
+      <rect x="100" y="320" width="600" height="80" rx="5" fill="#93c5fd" opacity="0.8"/>
+      <text x="400" y="355" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">3. Implementación</text>
+      <text x="400" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Desarrollo del código fuente siguiendo el diseño establecido</text>
+      <!-- Cascada -->
+      <path d="M 100 400 L 100 420 L 700 420 L 700 400 Z" fill="#93c5fd" opacity="0.6"/>
+    </g>
+    
+    <!-- Fase 4: Verificación -->
+    <g id="fase4">
+      <rect x="100" y="420" width="600" height="80" rx="5" fill="#c7d2fe" opacity="0.8"/>
+      <text x="400" y="455" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">4. Verificación (Pruebas)</text>
+      <text x="400" y="480" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">Pruebas unitarias, de integración, de sistema y de aceptación</text>
+      <!-- Cascada -->
+      <path d="M 100 500 L 100 520 L 700 520 L 700 500 Z" fill="#c7d2fe" opacity="0.6"/>
+    </g>
+    
+    <!-- Fase 5: Despliegue y Mantenimiento -->
+    <g id="fase5">
+      <rect x="100" y="520" width="600" height="80" rx="5" fill="#e0e7ff" opacity="0.8"/>
+      <text x="400" y="555" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">5. Despliegue y Mantenimiento</text>
+      <text x="400" y="580" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">Instalación en producción y mantenimiento continuo</text>
+    </g>
+  </g>
+  
+  <!-- Flechas de secuencia -->
+  <g id="flechas">
+    <path d="M 400 200 L 400 220" stroke="#1a1a1a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 400 300 L 400 320" stroke="#1a1a1a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 400 400 L 400 420" stroke="#1a1a1a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 400 500 L 400 520" stroke="#1a1a1a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Características -->
+  <g id="caracteristicas">
+    <rect x="50" y="630" width="700" height="50" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="400" y="650" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Características: Secuencial | Documentado | Predecible | Rígido</text>
+    <text x="400" y="670" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#718096">Cada fase debe completarse antes de iniciar la siguiente</text>
+  </g>
+  
+  <!-- Definición de flecha -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+</svg>
+

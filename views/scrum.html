@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología Scrum</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-content">
+            <div>
+                <h1>Metodología Scrum</h1>
+                <p class="header-subtitle">Framework ágil para gestión de proyectos</p>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+                <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+                    <span>🌙</span> <span>Oscuro</span>
+                </button>
+                <button class="menu-toggle" onclick="toggleMenu()">≡</button>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="agil.html">Ágil</a></li>
+                <li><a href="DevOps.html">DevOps</a></li>
+                <li><a href="Kanban.html">Kanban</a></li>
+                <li><a href="Lean.html">Lean</a></li>
+                <li><a href="Waterfall.html">Waterfall</a></li>
+                <li><a href="scrum.html">Scrum</a></li>
+                <li><a href="Formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <a href="../index.html" class="back-button">
+                <span class="back-button-icon">←</span>
+                <span>Volver al inicio</span>
+            </a>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <h2>¿Qué es Scrum?</h2>
+                        <p class="text-justify">La Metodología Scrum es un marco de trabajo (framework) ágil utilizado para gestionar proyectos complejos, especialmente en el desarrollo de productos.</p>
+                        <p class="text-justify">Su objetivo principal es permitir a los equipos trabajar de manera colaborativa y entregar valor de forma rápida e incremental, adaptándose a los cambios constantes.</p>
+                        <p class="text-justify">Scrum no es un proceso exhaustivo, sino una estructura ligera basada en el Empirismo (aprendizaje a partir de la experiencia) y el Pensamiento Lean (reducir el desperdicio).</p>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../img/scrum.svg" alt="Diagrama de Metodología Scrum - Roles y Ciclo de Sprint">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Los Tres pilares de Scrum</h2>
+                <p class="text-justify">El funcionamiento de Scrum se sostiene sobre tres pilares fundamentales que buscan la mejora continua:</p>
+                <ul>
+                    <li><strong>Transparencia:</strong> El trabajo y el proceso deben ser visibles para todos. Las decisiones se toman basándose en el estado observable de los artefactos.</li>
+                    <li><strong>Inspección:</strong> Se revisa el progreso frecuentemente y de manera diligente para detectar desviaciones indeseables. Esto ocurre en los eventos de Scrum.</li>
+                    <li><strong>Adaptación:</strong> Si se detectan desviaciones que impactan el objetivo, el equipo debe ajustar inmediatamente el proceso o el producto.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Estructura Scrum</h2>
+                <p class="text-justify">El corazón de Scrum es el Sprint, un ciclo de tiempo fijo y corto (típicamente de 1 a 4 semanas) durante el cual se crea un producto potencialmente utilizable.</p>
+
+                <h3>1. Roles (El Equipo Scrum)</h3>
+                <h4>Rol y responsabilidad principal</h4>
+
+                <p class="text-justify"><strong>Product Owner:</strong> Es el responsable de maximizar el valor del producto. Gestiona el Product Backlog (la lista de trabajo) y toma las decisiones finales sobre las prioridades.</p>
+
+                <p class="text-justify"><strong>Scrum Master:</strong> Es el líder de servicio del equipo. Se asegura de que Scrum se entienda y se aplique correctamente, elimina impedimentos y ayuda al equipo a mejorar continuamente.</p>
+
+                <p class="text-justify"><strong>Development Team:</strong> Son las personas que se dedican a crear el Incremento (el producto) en cada Sprint. Es responsable de la calidad y de la entrega.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados a MGAA</p>
+    </footer>
+
+    <script src="../java/theme.js"></script>
+</body>
+</html>

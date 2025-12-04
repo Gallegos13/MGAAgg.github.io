@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología Kanban</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-content">
+            <div>
+                <h1>Kanban</h1>
+                <p class="header-subtitle">Sistema de gestión de flujos de trabajo</p>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+                <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+                    <span>🌙</span> <span>Oscuro</span>
+                </button>
+                <button class="menu-toggle" onclick="toggleMenu()">≡</button>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="agil.html">Ágil</a></li>
+                <li><a href="DevOps.html">DevOps</a></li>
+                <li><a href="Kanban.html">Kanban</a></li>
+                <li><a href="Lean.html">Lean</a></li>
+                <li><a href="Waterfall.html">Waterfall</a></li>
+                <li><a href="scrum.html">Scrum</a></li>
+                <li><a href="Formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <a href="../index.html" class="back-button">
+                <span class="back-button-icon">←</span>
+                <span>Volver al inicio</span>
+            </a>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <h2>Origen y concepto</h2>
+                        <p class="text-justify">El término "Kanban" proviene del japonés y significa "tarjeta visual". Fue desarrollado por Taiichi Ohno en Toyota en la década de 1940 como parte del sistema de producción "justo a tiempo" (just in time), con el objetivo de reducir desperdicios y alinear la producción con la demanda real del mercado.</p>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../img/kanban.svg" alt="Origen del sistema Kanban">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Principios fundamentales</h2>
+                <p class="text-justify">Según David J. Anderson, uno de los principales teóricos modernos del método, Kanban se basa en dos conjuntos de principios:</p>
+                <ul>
+                    <li><strong>Principios de gestión del cambio:</strong> comenzar con lo que ya se hace, fomentar el cambio gradual y permitir liderazgo en todos los niveles.</li>
+                    <li><strong>Principios de prestación de servicios:</strong> centrarse en las necesidades del cliente, gestionar el trabajo (no a las personas) y revisar periódicamente los servicios ofrecidos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h3>Prácticas clave</h3>
+                <p class="text-justify">Las principales prácticas de Kanban incluyen:</p>
+                <ul>
+                    <li><strong>Visualizar el flujo de trabajo:</strong> para entender el estado actual y los posibles problemas.</li>
+                    <li><strong>Limitar el trabajo en curso (WIP):</strong> evitando sobrecargas y mejorando la calidad.</li>
+                    <li><strong>Gestionar el flujo:</strong> asegurando la continuidad del proceso y reduciendo bloqueos.</li>
+                    <li><strong>Bucle de retroalimentación (feedback loops) regulares:</strong> para discutir y adaptar procesos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Aplicaciones actuales</h2>
+                <p class="text-justify">Hoy en día, Kanban se aplica no solo en la manufactura, sino también en desarrollo de software, marketing, recursos humanos y gestión de proyectos ágiles, gracias a su enfoque flexible, visual y centrado en la optimización del flujo de trabajo.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <h1>Cómo implementar un tablero Kanban</h1>
+                
+                <dl>
+                    <dt>Define tu proceso o flujo de trabajo</dt>
+                    <dd>Antes de crear el tablero, debes tener claridad sobre el proceso o proyecto que quieres representar. Identifica las principales etapas por las que pasan las tareas desde que comienzan hasta que se completan.</dd>
+
+                    <dt>Diseña las columnas del tablero</dt>
+                    <dd>
+                        <p class="text-justify">Cada columna representa una fase del proceso. Lo más común es empezar con tres columnas básicas:</p>
+                        <ul>
+                            <li><strong>Por hacer (To Do):</strong> tareas pendientes de iniciar.</li>
+                            <li><strong>En curso (Doing):</strong> tareas que están siendo trabajadas actualmente.</li>
+                            <li><strong>Hecho (Done):</strong> tareas completadas.</li>
+                        </ul>
+                        <p class="text-justify">Dependiendo de la complejidad, puedes agregar columnas más específicas, como Revisión, Aprobación o Pruebas.</p>
+                    </dd>
+
+                    <dt>Añade las tareas como tarjetas</dt>
+                    <dd>Cada tarea o actividad se coloca en una tarjeta. En ella puedes incluir información clave como responsable, descripción, etiquetas o plazos. Las tarjetas deben moverse de una columna a otra a medida que avanzan.</dd>
+
+                    <dt>Establece límites de trabajo en curso (WIP)</dt>
+                    <dd>Define cuántas tareas pueden estar "en curso" simultáneamente. Este límite ayuda a evitar la sobrecarga de trabajo y mantiene el flujo constante. Por ejemplo, si tu equipo solo puede manejar 3 tareas a la vez, no se debe comenzar otra hasta completar una.</dd>
+
+                    <dt>Realiza seguimiento y ajustes frecuentes</dt>
+                    <dd>Supervisa el avance del tablero periódicamente. Detecta cuellos de botella o retrasos y ajusta los límites o el número de columnas si es necesario. Este es un paso clave para la mejora continua.</dd>
+
+                    <dt>Evalúa y mejora el proceso</dt>
+                    <dd>Una vez que el flujo esté estable, realiza evaluaciones para identificar oportunidades de optimización. Ajusta tus políticas, columnas o límites de trabajo para seguir mejorando la eficiencia del sistema.</dd>
+                </dl>
+
+                <p class="text-justify"><small>💡 <strong>Consejo:</strong> Puedes crear tu tablero físicamente (con notas adhesivas) o digitalmente, usando herramientas como Miro, Asana o Trello, que facilitan la colaboración en equipos distribuidos.</small></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados a MGAA</p>
+    </footer>
+
+    <script src="../java/theme.js"></script>
+</body>
+</html>

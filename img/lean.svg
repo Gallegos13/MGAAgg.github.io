@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650">
+  <!-- Fondo -->
+  <rect width="900" height="650" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Metodología Lean</text>
+  <text x="450" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#718096">Eliminación de Desperdicios - Maximización de Valor</text>
+  
+  <!-- Principios Lean -->
+  <g id="principios">
+    <text x="450" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Principios Fundamentales</text>
+    
+    <!-- Valor -->
+    <g id="valor">
+      <circle cx="150" cy="200" r="60" fill="#3b82f6" opacity="0.8"/>
+      <text x="150" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Valor</text>
+      <text x="150" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">para el</text>
+      <text x="150" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Cliente</text>
+    </g>
+    
+    <!-- Flujo de Valor -->
+    <g id="flujo">
+      <circle cx="350" cy="200" r="60" fill="#60a5fa" opacity="0.8"/>
+      <text x="350" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Flujo</text>
+      <text x="350" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">de Valor</text>
+      <text x="350" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Continuo</text>
+    </g>
+    
+    <!-- Pull -->
+    <g id="pull">
+      <circle cx="550" cy="200" r="60" fill="#93c5fd" opacity="0.8"/>
+      <text x="550" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Pull</text>
+      <text x="550" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">(Jalar)</text>
+      <text x="550" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Justo a Tiempo</text>
+    </g>
+    
+    <!-- Perfección -->
+    <g id="perfeccion">
+      <circle cx="750" cy="200" r="60" fill="#c7d2fe" opacity="0.8"/>
+      <text x="750" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Mejora</text>
+      <text x="750" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">Continua</text>
+      <text x="750" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">(Kaizen)</text>
+    </g>
+    
+    <!-- Flechas conectando -->
+    <path d="M 210 200 L 290 200" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 410 200 L 490 200" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 610 200 L 690 200" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Desperdicios (Muda) -->
+  <g id="desperdicios">
+    <text x="450" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">7 Tipos de Desperdicios (Muda)</text>
+    
+    <!-- Grid de desperdicios -->
+    <g id="muda-grid">
+      <!-- Sobreproducción -->
+      <rect x="50" y="350" width="110" height="80" rx="5" fill="#ef4444" opacity="0.7"/>
+      <text x="105" y="375" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">1. Sobreproducción</text>
+      <text x="105" y="395" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Producir más</text>
+      <text x="105" y="410" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">de lo necesario</text>
+      
+      <!-- Espera -->
+      <rect x="180" y="350" width="110" height="80" rx="5" fill="#f59e0b" opacity="0.7"/>
+      <text x="235" y="375" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">2. Espera</text>
+      <text x="235" y="395" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Tiempo</text>
+      <text x="235" y="410" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">inactivo</text>
+      
+      <!-- Transporte -->
+      <rect x="310" y="350" width="110" height="80" rx="5" fill="#fbbf24" opacity="0.7"/>
+      <text x="365" y="375" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">3. Transporte</text>
+      <text x="365" y="395" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Movimiento</text>
+      <text x="365" y="410" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">innecesario</text>
+      
+      <!-- Sobreprocesamiento -->
+      <rect x="440" y="350" width="110" height="80" rx="5" fill="#10b981" opacity="0.7"/>
+      <text x="495" y="375" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">4. Sobreprocesamiento</text>
+      <text x="495" y="395" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Procesos</text>
+      <text x="495" y="410" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">excesivos</text>
+      
+      <!-- Inventario -->
+      <rect x="570" y="350" width="110" height="80" rx="5" fill="#3b82f6" opacity="0.7"/>
+      <text x="625" y="375" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">5. Inventario</text>
+      <text x="625" y="395" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Exceso de</text>
+      <text x="625" y="410" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">existencias</text>
+      
+      <!-- Movimiento -->
+      <rect x="700" y="350" width="110" height="80" rx="5" fill="#8b5cf6" opacity="0.7"/>
+      <text x="755" y="375" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">6. Movimiento</text>
+      <text x="755" y="395" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Personas</text>
+      <text x="755" y="410" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">innecesario</text>
+      
+      <!-- Defectos -->
+      <rect x="315" y="450" width="110" height="80" rx="5" fill="#ec4899" opacity="0.7"/>
+      <text x="370" y="475" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">7. Defectos</text>
+      <text x="370" y="495" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Errores y</text>
+      <text x="370" y="510" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">retrabajo</text>
+    </g>
+  </g>
+  
+  <!-- Filosofía -->
+  <g id="filosofia">
+    <rect x="200" y="560" width="500" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="450" y="585" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Filosofía: Hacer más con menos</text>
+    <text x="450" y="605" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">Eliminar todo lo que no agrega valor al cliente final</text>
+  </g>
+  
+  <!-- Definición de flecha -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3b82f6"/>
+    </marker>
+  </defs>
+</svg>
+
