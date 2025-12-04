@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologías de Desarrollo de Software</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-content">
+            <div>
+                <h1>Metodologías de Desarrollo</h1>
+                <p class="header-subtitle">Guía completa de metodologías de software</p>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+                <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+                    <span>🌙</span> <span>Oscuro</span>
+                </button>
+                <button class="menu-toggle" onclick="toggleMenu()">≡</button>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="views/agil.html">Ágil</a></li>
+                <li><a href="views/DevOps.html">DevOps</a></li>
+                <li><a href="views/Kanban.html">Kanban</a></li>
+                <li><a href="views/Lean.html">Lean</a></li>
+                <li><a href="views/Waterfall.html">Waterfall</a></li>
+                <li><a href="views/scrum.html">Scrum</a></li>
+                <li><a href="views/Formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    
+        <section class="hero-section">
+            <div class="card hero-card">
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h1>¿Qué son las Metodologías Ágiles?</h1>
+                        <p class="text-justify">Las <strong>metodologías ágiles</strong> son un conjunto de prácticas y principios para el desarrollo de software que priorizan la flexibilidad, la colaboración y la entrega continua de valor al cliente. A diferencia de los métodos tradicionales rígidos, las metodologías ágiles se adaptan rápidamente a los cambios y fomentan la comunicación directa entre equipos y clientes.</p>
+                        <p class="text-justify">El <strong>Manifiesto Ágil</strong>, creado en 2001, establece cuatro valores fundamentales: individuos e interacciones sobre procesos y herramientas, software funcionando sobre documentación exhaustiva, colaboración con el cliente sobre negociación contractual, y respuesta al cambio sobre seguir un plan.</p>
+                        <p class="text-justify">Estas metodologías han revolucionado la industria del software, permitiendo a los equipos entregar productos de mayor calidad, más rápido y con mayor satisfacción del cliente.</p>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/agil.svg" alt="Metodologías Ágiles - Desarrollo Iterativo e Incremental">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Metodologías Destacadas -->
+        <section>
+            <div class="section-header">
+                <h2>Metodologías Destacadas</h2>
+                <p class="section-subtitle">Explora las principales metodologías de desarrollo de software</p>
+            </div>
+
+            <div class="methodology-grid">
+                <!-- Ágil -->
+                <div class="methodology-card">
+                    <div class="methodology-icon">
+                        <img src="img/agil.svg" alt="Metodología Ágil">
+                    </div>
+                    <div class="methodology-content">
+                        <h3>Metodología Ágil</h3>
+                        <p>Desarrollo iterativo e incremental que prioriza la adaptación al cambio y la entrega continua de valor.</p>
+                        <a href="views/agil.html" class="methodology-link">Leer más →</a>
+                    </div>
+                </div>
+
+                <!-- Scrum -->
+                <div class="methodology-card">
+                    <div class="methodology-icon">
+                        <img src="img/scrum.svg" alt="Metodología Scrum">
+                    </div>
+                    <div class="methodology-content">
+                        <h3>Scrum</h3>
+                        <p>Framework ágil que organiza el trabajo en sprints cortos con roles definidos y eventos regulares.</p>
+                        <a href="views/scrum.html" class="methodology-link">Leer más →</a>
+                    </div>
+                </div>
+
+                <!-- Kanban -->
+                <div class="methodology-card">
+                    <div class="methodology-icon">
+                        <img src="img/kanban.svg" alt="Metodología Kanban">
+                    </div>
+                    <div class="methodology-content">
+                        <h3>Kanban</h3>
+                        <p>Sistema visual de gestión de flujos de trabajo que limita el trabajo en progreso para optimizar el flujo.</p>
+                        <a href="views/Kanban.html" class="methodology-link">Leer más →</a>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div class="methodology-card">
+                    <div class="methodology-icon">
+                        <img src="img/imagendev.png" alt="Metodología DevOps">
+                    </div>
+                    <div class="methodology-content">
+                        <h3>DevOps</h3>
+                        <p>Integración de desarrollo y operaciones para automatizar y acelerar la entrega de software.</p>
+                        <a href="views/DevOps.html" class="methodology-link">Leer más →</a>
+                    </div>
+                </div>
+
+                <!-- Lean -->
+                <div class="methodology-card">
+                    <div class="methodology-icon">
+                        <img src="img/lean.svg" alt="Metodología Lean">
+                    </div>
+                    <div class="methodology-content">
+                        <h3>Lean</h3>
+                        <p>Eliminación de desperdicios y maximización de valor mediante principios de mejora continua.</p>
+                        <a href="views/Lean.html" class="methodology-link">Leer más →</a>
+                    </div>
+                </div>
+
+                <!-- Waterfall -->
+                <div class="methodology-card">
+                    <div class="methodology-icon">
+                        <img src="img/waterfall.svg" alt="Metodología Waterfall">
+                    </div>
+                    <div class="methodology-content">
+                        <h3>Waterfall</h3>
+                        <p>Modelo secuencial en cascada ideal para proyectos con requisitos bien definidos y estables.</p>
+                        <a href="views/Waterfall.html" class="methodology-link">Leer más →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conceptos Populares -->
+        <section>
+            <div class="section-header">
+                <h2>Conceptos Populares</h2>
+            </div>
+            <div class="concepts-grid">
+                <a href="views/agil.html" class="concept-item">Desarrollo Iterativo</a>
+                <a href="views/scrum.html" class="concept-item">Sprint</a>
+                <a href="views/Kanban.html" class="concept-item">Tablero Kanban</a>
+                <a href="views/DevOps.html" class="concept-item">CI/CD</a>
+                <a href="views/Lean.html" class="concept-item">Eliminación de Desperdicios</a>
+                <a href="views/Waterfall.html" class="concept-item">Modelo en Cascada</a>
+                <a href="views/scrum.html" class="concept-item">Product Owner</a>
+                <a href="views/agil.html" class="concept-item">Manifiesto Ágil</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> Elaborado por: [MGAA] | Ingeniería en Software y Sistemas Computacionales</p>
+        <p>&copy; 2025 - Proyecto Académico</p>
+    </footer>
+
+    <script src="java/theme.js"></script>
+</body>
+</html>
+
